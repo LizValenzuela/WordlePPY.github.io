@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:lavender;
+  }
+
+
+     
+  h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: black;
+  }
+     
+  #guess-input {
+    display: block;
+    margin: 0 auto 20px;
+    padding: 10px;
+    font-size: 18px;
+    width: 250px;
+    border: 1px solid black;
+  }
+     
+  #guess-button {
+    display: block;
+    margin: 0 auto;
+    padding: 10px 20px;
+    font-size: 18px;
+    background-color:#4361EE;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+  }
+     
+  button:active {
+      transform: scale(0.95);
+  }
+     
+  .letter {
+      border: 1px solid black;
+      padding: 5px;
+      margin: 5px;
+      min-width: 20px;
+      text-align: center;
+      display: inline-block
+  }
+     
+  .row{
+      margin-bottom: 20px;
+      margin: 0 auto;
+      
+  }
+     
+  .input-area{
+      margin: 30px;
+  }
+
+ #grid{
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+
+ }
+
+ #guesses{
+    position: absolute;
+    top:80%;
+    left:50%;
+    transform:translate(-50%,-80%) ;
+ }
